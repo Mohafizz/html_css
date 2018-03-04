@@ -1,18 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>"Hello HTML and CSS!"</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CSS Grid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/style.css" />
+    <script src="main.js"></script>
 </head>
 
 <body>
-    <h1>Hello World!</h1>
-    <br>
-    <p>This is a test.</p>
+    <div class=grid>
+        <div class=title>
+            <h1>Logo</h1>
+        </div>
+        <div class=navbar>
+            <h2>Home</h2>
+            <h2>Blog</h2>
+            <h2>About</h2>
+            <h2>Contact</h2>
+        </div>
+        <div class=main_content>
+            <div id=blog>
+                <h1>Title</h1>
+                <h6>date: 23rd Feb 2018</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quos facere facilis, doloribus inventore cum
+                    cupiditate similique autem soluta eos. Dolorem, officiis. Quod suscipit quaerat assumenda omnis est sit
+                    nulla! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur autem iure perferendis at
+                    necessitatibus, rerum natus ipsum voluptates iusto a.
+                </p>
+            </div>
+        </div>
+        <div class="right_sidebar">
+            <div id=sidebar_content>
+                <div id=image_placeholder>
+                    <H3>Image</H3>
+                </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque provident veniam iusto iste tempora laborum
+                    eum maiores cum dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto qui neque
+                    non, aliquam voluptatibus accusantium tempore quidem dolore, error voluptatem itaque? Molestias porro
+                    facilis nisi ex? Mollitia voluptate similique fugit!
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            Copyright!
+        </div>
+    </div>
 </body>
 
 </html>
