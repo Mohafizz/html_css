@@ -2,25 +2,26 @@
   display: grid;
   grid-template-columns: 3fr 2fr;
   /* grid-gap: 0.1em; */
-  font-family: Georgia, Times, serif;
+  font-family: "Nanum Myeongjo", serif;
 }
 
 .title {
-  background: #1c1c1c;
+  background: url(./sky--purple-kracked.jpg);
+  background-position: center;
+  background-size: 80rem;
   padding: 1em;
   grid-column: 1/3;
   text-align: center;
-  color: aliceblue;
+  color: #ffc600;
 }
 
 .navbar {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  align-self: center;
-  align-self: flex-start;
-  background: #323232;
-  grid-column: 1/3;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
+  text-align: center;
+  background: #262626;
+  grid-column: 1/4;
   color: aliceblue;
 }
 
